@@ -2,6 +2,7 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'roboto', sans-serif;
 }
 
 /*Styles for header and hero*/
@@ -59,8 +60,59 @@ h1 {
     margin-bottom: 0;
 }
 
-.image {
-    width: 50%;
+.text p {
+    margin-top: 5px;
+    padding-right: 30px;
 }
 
+button {
+    background-color: #3882F6;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
 
+.image {
+    width: 50%;
+    background-color: gray;
+}
+
+/*This is styling for info section*/
+.info h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.container {
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.box {
+    width: 180px;
+    height: 180px;
+    border: 4px solid #3883f6;
+    border-radius: 15px;
+}
+
+.box-container p {
+    max-width: 188px;
+    margin-top: 5px;
+    color: #1f2937;
+}
