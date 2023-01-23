@@ -80,6 +80,10 @@ button {
 }
 
 /*This is styling for info section*/
+.info{
+    flex-grow: 1;
+}
+
 .info h2 {
     text-align: center;
     font-size: 32px;
@@ -115,4 +119,74 @@ button {
     max-width: 188px;
     margin-top: 5px;
     color: #1f2937;
+}
+
+/*This is styling for the quote section */
+
+.quote-container {
+    height: 60vh;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-by{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* This is styling for the call to action button */
+.call {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.call h3 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.call p {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.call-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    height: 22vh;
+    width: 1000px;
+    color: white;
+}
+
+/*This is the style for the footer */
+.footer {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+}
+
+.call-btn {
+    border: 2px solid white;
+    border-radius: 7px;
 }
